@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Asar&family=Bungee+Spice&family=Roboto:wght@100&display=swap');
 header {
     display: flex;
     flex-direction: row;
@@ -8,48 +9,34 @@ header {
     padding-left: 1em;
     background-color: white;
 }
-.name {
-    color: black;
-}
 .links {
-    display: flex;
-    justify-content: right;
-    color: black;
     flex-grow: 3;
+    text-align: end;
 }
-.media-link {
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #7d94b5;
+    color: black;
+    min-height: 100vh;
+    margin: 0;
+}
+.main-footer {
     display: flex;
     padding-top: 0.5em;
     padding-right: 1em;
     padding-bottom: 0.5em;
     padding-left: 1em;   
-    height: 32px;
-}
-body {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(22, 10, 104, 0.786);
-    color: white;
-    min-height: 100vh;
-}
-main {
-    padding-top: 24px;
-    padding-right: 12px;
-    padding-bottom: 24px;
-    padding-left: 12px;
-}
-footer {
-    display: flex;
-    background-color: white;   
     justify-content: center;
+    background-color: white;
     margin-top: auto;
 }
+
 .media-link {
+    padding-top: 0.5em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    height: 32px;
     justify-content: center;
-}
-.quote {
-    display: flex;
-    color: red;
-    justify-content: center;
-    margin-top: 4em;
 }
