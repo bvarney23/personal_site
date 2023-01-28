@@ -1,3 +1,18 @@
 h1 {
     text-align: center;
 }
+
+.tic-tac-toe {
+    display: flex;
+    justify-content: center;
+}
+
+.stranger-things {
+    display: flex;
+    justify-content: center;
+}
+
+.graces-gag {
+    display: flex;
+    justify-content: center;
+}
