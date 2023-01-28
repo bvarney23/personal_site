@@ -2,17 +2,32 @@ h1 {
     text-align: center;
 }
 
-.tic-tac-toe {
+#tic-tac-toe {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
-.stranger-things {
+#stranger-things {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
-.graces-gag {
+#graces-gag {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.projects {
+    text-align: center;
+    font-size: 125%;
+    margin: 1%;
 }
