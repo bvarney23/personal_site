@@ -12,6 +12,11 @@ header {
 .links {
     flex-grow: 3;
     text-align: end;
+    text-decoration: none;
+}
+.direct-link {
+    text-decoration: none;
+    color: blue;
 }
 body {
     display: flex;
