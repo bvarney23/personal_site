@@ -1,30 +1,36 @@
 h1 {
     text-align: center;
 }
+
 .header-recent {
     padding: 1ch;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .header-football {
     padding: 1ch;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .marriage-photo {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .marriage {
     height: 256px;
     padding: 1ch;
 }
+
 .marriage-text {
     padding: 1%;
 }
+
 .football-photo {
     display: flex;
     flex-direction: column;
@@ -34,21 +40,26 @@ h1 {
     height: auto;
     width: 256px;
 }
+
 .football-text {
     padding: 1%;
 }
+
 .golf-photo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 1ch;
 }
+
 .golf {
 height: 256px;
 }
+
 .golf-text {
     padding: 1%;
 }
+
 .about-image {
     text-align: center;
 }

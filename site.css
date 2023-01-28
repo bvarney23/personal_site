@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Asar&family=Bungee+Spice&family=Roboto:wght@100&display=swap');
+
 header {
     display: flex;
     flex-direction: row;
@@ -9,15 +10,18 @@ header {
     padding-left: 1em;
     background-color: white;
 }
+
 .links {
     flex-grow: 3;
     text-align: end;
     text-decoration: none;
 }
+
 .direct-link {
     text-decoration: none;
     color: blue;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -26,6 +30,7 @@ body {
     min-height: 100vh;
     margin: 0;
 }
+
 .main-footer {
     display: flex;
     padding-top: 0.5em;
