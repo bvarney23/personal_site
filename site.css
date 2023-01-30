@@ -50,3 +50,12 @@ body {
     height: 32px;
     justify-content: center;
 }
+
+.matt-quote {
+    width: 500px;
+    height: 746px;
+}
+
+.testimonial {
+    text-align: center;
+}
