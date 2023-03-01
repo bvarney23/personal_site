@@ -10,15 +10,26 @@
 </head>
 <body>
     <div class="header">
-        <header>
-            <span class="name">Brandon Varney</span>
-            <nav class="links">
+        <span class="name">Brandon Varney</span>
+        <nav class="links">
             <a class="direct-link" href="index.html">Home</a>&nbsp;
             <a class="direct-link" href="about.html">About Me</a>&nbsp;
             <a class="direct-link" href="portfolio.html">Portfolio</a>
-            </nav>
-        </header>
-    </div>   
+        </nav>
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <div class="dropdown" id="dropdown">
+            <a class="direct-link" href="index.html">Home</a>
+            <a class="direct-link" href="about.html">About Me</a>
+            <a class="direct-link" href="portfolio.html">Portfolio</a>
+        </div>
+      </div>
+      
+      <script>
+        function toggleMenu() {
+            let dropdown = document.getElementById("dropdown");
+            dropdown.classList.toggle("show")
+        }
+      </script> 
        <main>
         <h1>Recent news and events</h1>
             <div class="header-recent">
