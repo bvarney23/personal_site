@@ -22,11 +22,6 @@ h1 {
     justify-content: center;
 }
 
-.marriage {
-    height: 256px;
-    padding: 1ch;
-}
-
 .mri-text {
     padding: 1%;
 }
@@ -42,21 +37,6 @@ h1 {
 }
 
 .cutter-text {
-    padding: 1%;
-}
-
-.golf-photo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1ch;
-}
-
-.golf {
-height: 256px;
-}
-
-.golf-text {
     padding: 1%;
 }
 
