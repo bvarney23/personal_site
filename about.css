@@ -2,14 +2,14 @@ h1 {
     text-align: center;
 }
 
-.header-recent {
+.header-current {
     padding: 1ch;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.header-football {
+.header-past {
     padding: 1ch;
     display: flex;
     flex-direction: row;
@@ -31,17 +31,17 @@ h1 {
     padding: 1%;
 }
 
-.football-photo {
+.cutter-photo {
     display: flex;
     flex-direction: column;
     padding: 1ch;
 }
-.football {
+.cutter {
     height: auto;
     width: 256px;
 }
 
-.football-text {
+.cutter-text {
     padding: 1%;
 }
 
