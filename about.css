@@ -43,3 +43,19 @@ h1 {
 .about-image {
     text-align: center;
 }
+
+#mri_software {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.job_company {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.job_description {
+    font-size: 125%;
+    margin: 1%;
+}
