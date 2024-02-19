@@ -16,7 +16,7 @@ h1 {
     justify-content: center;
 }
 
-.marriage-photo {
+.mri-photo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +27,7 @@ h1 {
     padding: 1ch;
 }
 
-.marriage-text {
+.mri-text {
     padding: 1%;
 }
 
