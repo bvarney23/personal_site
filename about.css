@@ -29,7 +29,7 @@ h1 {
 .cutter-photo {
     display: flex;
     flex-direction: column;
-    padding: 1ch;
+    justify-content: center;
 }
 .cutter {
     height: auto;
